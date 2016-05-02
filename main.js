@@ -9,7 +9,7 @@ $(document).ready(function(){
       url: "http://ron-swanson-quotes.herokuapp.com/v2/quotes",
     }).done(function(data) {
       // TODO animate movement of the bigger div
-      $('#image').empty().append('<img src="' + rando + '" alt = "" height="350px" width="350px">');
+      $('#image').empty().append('<img src="' + rando + '" alt = "" height="350px" width="550px">');
       $('#quote').empty().append(data[0]);
     });
   });
